@@ -122,7 +122,7 @@
     "codecov": "codecov -f coverage/coverage-final.json",
     "lint": "xo",
     "pretest": "npm run lint",
-    "semantic-release": "./bin/semantic-release.js",
+    "semantic-release": "node ./bin/semantic-release.js",
     "test": "nyc ava -v"
   },
   "xo": {
