@@ -1,4 +1,4 @@
-<h1 align="center" style="border-bottom: none;">📦🚀 semantic-release</h1>
+<h1 align="center" style="border-bottom: none;">📦🚀 semantic-release-plus</h1>
 <h3 align="center">Fully automated version management and package publishing</h3>
 <p align="center">
   <a href="https://spectrum.chat/semantic-release">
@@ -26,7 +26,9 @@
   </a>
 </p>
 
-**semantic-release** automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
+**semantic-release-plus** is a drop in replacement for **semantic release** that adds a few enhancements 
+
+ **semantic release** automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
 
 This removes the immediate connection between human emotions and version numbers, strictly following the [Semantic Versioning](http://semver.org) specification.
 
