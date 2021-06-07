@@ -34,6 +34,8 @@ jobs:
       - name: Ensure dependencies are compatible with the version of node
         run: echo 'engine-strict=true' >> .npmrc
       - uses: bahmutov/npm-install@v1
+      - run: npm run lint
+      - run: npm run format:check
       - run: npm run test:ci
 
   # separate job to set as required in branch protection,
@@ -46,3 +48,4 @@ jobs:
       - uses: actions/setup-node@v2
       - uses: bahmutov/npm-install@v1
       - run: npm run lint
+      - run: npm run format:check
