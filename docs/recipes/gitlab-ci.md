@@ -21,8 +21,8 @@ This example is a minimal configuration for **semantic-release** with a build ru
 ```yaml
 # The release pipeline will run only if all jobs in the test pipeline are successful
 stages:
-    - test
-    - release
+  - test
+  - release
 
 before_script:
   - npm install
@@ -52,9 +52,8 @@ This example is a minimal configuration for **semantic-release** with a build ru
 
 **Note**: The`semantic-release` execution command varies depending if you are using a [local](../usage/installation.md#local-installation) or [global](../usage/installation.md#global-installation) **semantic-release** installation.
 
-
 ```yaml
-# The release pipeline will run only on the master branch a commit is triggered 
+# The release pipeline will run only on the master branch a commit is triggered
 stages:
   - release
 

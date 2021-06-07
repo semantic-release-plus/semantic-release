@@ -19,7 +19,7 @@ The`semantic-release` execution command varies depending if you are using a [loc
 ```yaml
 // The release stage in the pipeline will run only if the test stage in the pipeline is successful
 pipeline {
-    agent any 
+    agent any
     environment {
         GH_TOKEN  = credentials('some-id')
     }
@@ -42,7 +42,7 @@ pipeline {
                 # Run optional required steps before releasing
                 npx semantic-release
                 '''
-            }            
+            }
         }
     }
 }

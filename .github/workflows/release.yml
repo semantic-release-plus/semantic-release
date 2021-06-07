@@ -5,7 +5,7 @@ on:
       - master
       - next
       - beta
-      - "*.x" # maintenance releases branches
+      - '*.x' # maintenance releases branches
 
 jobs:
   release:

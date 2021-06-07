@@ -30,13 +30,14 @@
   </a>
 </p>
 
+</div>
 **semantic-release-plus** is a drop in replacement for **semantic release** that adds some enhancements:
-- [X] Filter commit by path [commitPaths](docs/usage/configuration.md#commitPaths)
-    - allows support for monorepos like nx and lerna to support multi version between releasable apps
-- [ ] Set the logging level
-- [X] Print the next version only
-    - semantic release can not be configured to run and have no impact on the git repository using the `skipTag` property. [example recipe](docs/recipes/expected-next-version.md)
 
+- [x] Filter commit by path [commitPaths](docs/usage/configuration.md#commitPaths)
+  - allows support for monorepos like nx and lerna to support multi version between releasable apps
+- [ ] Set the logging level
+- [x] Print the next version only
+  - semantic release can not be configured to run and have no impact on the git repository using the `skipTag` property. [example recipe](docs/recipes/expected-next-version.md)
 
 **semantic-release** automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
 
