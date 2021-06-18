@@ -1,7 +1,5 @@
 <h1 align="center" style="border-bottom: none;">📦🚀 semantic-release-plus</h1>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 <h3 align="center">Fully automated version management and package publishing</h3>
 <p align="center">
   <a href="https://github.com/semantic-release-plus/semantic-release/discussions">
@@ -24,6 +22,11 @@
   </a>
   <a href="https://www.npmjs.com/package/semantic-release-plus">
     <img alt="npm beta version" src="https://img.shields.io/npm/v/semantic-release-plus/beta.svg">
+  </a>
+</p>
+<p align="center">
+  <a href="#contributors-">
+    <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/semantic-release-plus/semantic-release">
   </a>
 </p>
 
