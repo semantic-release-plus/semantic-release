@@ -98,19 +98,6 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "nyc": {
-    "include": [
-      "lib/**/*.js",
-      "index.js",
-      "cli.js"
-    ],
-    "reporter": [
-      "json",
-      "text",
-      "html"
-    ],
-    "all": true
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -128,10 +115,5 @@
     "semantic-release": "./bin/semantic-release.js",
     "test": "nyc ava -v",
     "test:ci": "nyc ava -v"
-  },
-  "renovate": {
-    "extends": [
-      "github>semantic-release/.github"
-    ]
   }
 }
