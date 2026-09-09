@@ -63,7 +63,7 @@
     "fs-extra": "9.1.0",
     "got": "11.8.6",
     "husky": "7.0.4",
-    "js-yaml": "4.1.0",
+    "js-yaml": "4.3.2",
     "lint-staged": "12.5.0",
     "mockserver-client": "5.15.0",
     "nock": "13.3.3",
